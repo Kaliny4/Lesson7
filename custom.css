@@ -1,0 +1,42 @@
+  p.paragraf {
+	text-decoration:none; 
+	color: rgb(43, 226, 104); 
+	font-size: 20pt; 
+	text-indent: 110px; 
+	font-weight: 100; 
+	direction: initial; 
+	line-height: 2;
+	text-shadow: 3px 3px rgb(87, 137, 150);
+	text-align: left;
+	vertical-align: sub;
+	word-spacing: normal;
+	letter-spacing: 1.5px;
+	white-space: pre-wrap;
+	font-family: 'Roboto', sans-serif;
+	}
+	p.paragraf::first-letter {
+		font-size: 300;
+		font-weight: 800;
+		color: rgb(13, 13, 14);
+	}
+
+	#pragraph {
+	text-decoration:none; 
+	color: rgb(226, 43, 73); 
+	font-size: bolder; 
+	text-indent: 110px; 
+	font-weight: 100; 
+	direction: rtl; 
+	line-height: 2;
+	text-shadow: 3px 3px rgb(104, 3, 77);
+	text-align: end;
+	vertical-align: sub;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	white-space: pre;
+	font-family: 'Rubik Moonrocks', cursive;
+	}
+	#pragraph::first-line {
+		color: aquamarine;
+		font-size: 100;
+	}
